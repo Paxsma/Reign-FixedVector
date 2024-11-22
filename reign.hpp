@@ -9,7 +9,7 @@ namespace reign {
           public:
 
             fixed_vector()
-                : size_(0) {
+                : size_(0u) {
             }
 
             constexpr std::size_t max_size() const {
